@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Web Cá Nhân của Tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        header {
+            background-color: #4682b4;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            text-align: center;
+            padding: 1em;
+            background-color: #87cefa;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        section {
+            padding: 2em;
+        }
+        .video-list, .articles, .inspirational-stories {
+            margin-bottom: 2em;
+        }
+        .video-list img, .articles img, .inspirational-stories img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #4682b4;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Trang Web Cá Nhân của Tôi</h1>
+    <p>Kênh YouTube: @tasongkhoe</p>
+</header>
+
+<nav>
+    <a href="#videos">Video Nổi Bật</a>
+    <a href="#articles">Bài Viết & Bài Chia Sẻ</a>
+    <a href="#stories">Câu Chuyện Truyền Cảm Hứng</a>
+</nav>
+
+<section id="videos" class="video-list">
+    <h2>Video Nổi Bật</h2>
+    <p>Dưới đây là những video nổi bật từ kênh YouTube của tôi:</p>
+    <!-- Thêm mã nhúng video YouTube ở đây -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+
+<section id="articles" class="articles">
+    <h2>Bài Viết & Bài Chia Sẻ</h2>
+    <article>
+        <h3>Tiêu Đề Bài Viết</h3>
+        <p>Đây là phần tóm tắt ngắn về bài viết...</p>
+        <!-- Thêm ảnh AI tại đây -->
+        <img src="path_to_ai_generated_image.jpg" alt="Ảnh AI">
+    </article>
+    <!-- Thêm các bài viết khác tại đây -->
+</section>
+
+<section id="stories" class="inspirational-stories">
+    <h2>Câu Chuyện Truyền Cảm Hứng</h2>
+    <article>
+        <h3>Tiêu Đề Câu Chuyện</h3>
+        <p>Đây là một câu chuyện truyền cảm hứng từ cộng đồng của tôi...</p>
+        <!-- Thêm ảnh AI tại đây -->
+        <img src="path_to_ai_generated_image.jpg" alt="Ảnh AI">
+    </article>
+    <!-- Thêm các câu chuyện khác tại đây -->
+</section>
+
+<footer>
+    <p>&copy; 2024 Trang Web Cá Nhân của Tôi</p>
+</footer>
+
+</body>
+</html>
